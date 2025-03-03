@@ -25,6 +25,7 @@ namespace OneDimensionalArray
 
 			Session["strCategoryArray"] = strCategoryArray;
 
+			Response.Redirect("CategoryUseArray.aspx");
 
         }
     }
